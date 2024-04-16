@@ -1,0 +1,42 @@
+
+    /* Style for form container */
+    .form-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    /* Style for form inputs */
+    input[type="file"],
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* To include padding and border in width calculation */
+    }
+
+    /* Style for submit button */
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Style for Go Back button */
+    .backbutton {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ccc;
+        color: #333;
+        cursor: pointer;
+    }

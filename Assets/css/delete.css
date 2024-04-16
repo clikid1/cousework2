@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif; /* Set the font family */
+    background-color: #9c8686; /* Set the background color */
+}
+
+h1 {
+    color: #333; /* Set the color of the heading */
+    text-align: center; /* Center-align the heading */
+    margin-top: 50px; /* Add some top margin */
+}
+
+h3 {
+    color: #666; /* Set the color of the subheading */
+    text-align: center; /* Center-align the subheading */
+    margin-top: 20px; /* Add some top margin */
+}
+
+.delnav {
+    width: 400px; /* Set the width of the form */
+    margin: 0 auto; /* Center-align the form */
+    background-color: #fff; /* Set the background color of the form */
+    padding: 20px; /* Add some padding */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 10px; /* Add some bottom margin */
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="button"] {
+    width: 100%; /* Set the width to fill the container */
+    padding: 10px; /* Add some padding */
+    margin-bottom: 20px; /* Add some bottom margin */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #4CAF50; /* Set the background color */
+    color: #fff; /* Set the text color */
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #45a049; /* Change the background color on hover */
+}

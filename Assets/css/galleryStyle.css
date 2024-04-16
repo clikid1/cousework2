@@ -1,0 +1,18 @@
+.menuBar {
+position: sticky;
+top: 0px;
+width: 100%;
+height: 50px;
+background-color: rgb(47, 170, 31);
+}
+.pictureBox {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%; height: auto;
+border: 2px solid rgb(197, 131, 131);
+border-radius: 25px;}
+
+img {
+width: 100%; height:auto;}

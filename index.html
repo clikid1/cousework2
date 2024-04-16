@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\stlye\style.css">
+    <!--<link rel="stylesheet" href="C:\GITHUB\Lab6\assets\Material\badcolours.css"> -->
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\stlye\style.css">
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\Js\Ripple.min.js">
+    <link rel="stylesheet" href="https://maxcdn.Bootstrapcdn.com/Bootstrap/4.0.0/css/Bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\stlye\style.css">
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\CSS\Ripple.css">
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\Js\Ripple.js">
+    <link rel="stylesheet" href="C:\xamp1\htdocs\Course_work\Assets\Materials\Js\Ripple.min.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.10/css/ripples.min.css">
+    <link rel="stylesheet" href="Assets\css\css.css">
+    <link rel="stylesheet" href="Assets\css\former.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="admin_panel\assets\css\style.css">
+    >
+
+
+</head>
+<body>
+    <!--NAV BAR START--->
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">CLINTON'S FOOD BLOG</a>
+<form action="">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <a class="navbar-brand" href="login.html">Post Recipe</a> 
+          <a class="navbar-brand" href="login.html">Search Recipes</a> 
+          <a class="navbar-brand" href="login.html">Pictures</a> 
+          <a class="navbar-brand" href="login.html">Videos</a>
+          <a class="navbar-brand" href="login.html">Log In</a> 
+          <a class="navbar-brand" href="signup.html">Sign Up</a>
+          <a class="navbar-brand" href="aboutus.html">About us</a>
+</form>
+<style>
+  main{
+    background-color: aquamarine;
+  }     
+
+  .logout-form {
+      text-align: center;
+  }
+  #logoutButton {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+  }
+  #logoutButton:hover {
+      background-color: #0056b3;
+  }
+
+  .backbutton {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 10px 20px;
+        background-color:  #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px 0 0 0;
+        cursor: pointer;
+    }
+    
+</style>
+
+<form class="logout-form" action="logout.php" method="post">
+<button id="logoutButton">Logout</button>
+</form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Search</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">Sign Up</a>
+                  <a class="nav-link" href="login.html">Follow us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="aboutus.html" data-bs-toggle="dropdown" aria-expanded="false">
+                    About us
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href=""></a></li>
+                    <li><a class="dropdown-item" href=""></a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href=""></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+  <!--NAV BAR END-->
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+        <!--Section 1--> 
+
+        <main class="col-md-12">
+         <div id="experimentContainer" class="go">
+            <div class="col-md-3">
+                <div class="panel panel-primary">
+                 <div class="panel-heading">
+                 <h3 class="panel-title">Latest Recipes</h3>
+                 <img src="admin_panel\uploads\Recipes_image.jpeg" alt="Placeholder Image" id="experimentImage">
+                 </div>
+                 <div class="panel-body">
+                    <a href="#">Butter Cauliflower and Chickpeas with Mint Cilantro Sauce</a>
+                 <p>This Butter Cauliflower and Chickpeas is a weeknight staple! Roasty spiced cauliflower, a jar of butter sauce, a can of chickpeas, and a pile of steamy rice with a waterfall of mint sauce on top.</p>
+                 
+                    <div class="panel panel-primary">
+                     <div class="panel-heading">
+                     <h3 class="panel-title">Best Cocktails</h3>
+                     <img src="admin_panel\uploads\cocktails.jpeg" alt="Placeholder Image" id="experimentImage">
+                     </div>
+                     <div class="panel-body">
+                     <p>When looking at a bar menu, the cocktail list can seem endless, but you can never go wrong with a classic. Every year, Clintons exqusite announces its top 50 list of the world's bestselling classic cocktails. we've compiled the cocktail list for you. From margaritas to martinis, scroll through to see the world's bestselling cocktails and get the recipes to make them at home.</p>
+                     </div>
+                    </div>
+                    
+                 </div>
+                </div>
+                </div>
+ <!--Section 2-->               
+                <div class="col-md-3">
+                    <div class="panel panel-primary">
+                     <div class="panel-heading">
+                     <h3 class="panel-title">FOOD & RECIPES</h3>
+                     
+                     </div>
+                     <div class="panel-body">
+                     
+                     <ul class="navba" id="myNavbar1">
+                        <li><a href="#" class="active">Meat jellof rice</a></li>
+                        <li><a href="#">cake Recipes</a></li>
+                        <li><a href="#">Fried Rice Recipes</a></li>
+                        <li><a href="#">Berry Smoothie Recipes</a></li>
+                        <li><a href="#"> Egusi Soup Recipes </a></li>
+                        <li><a href="#">Chocolate Recipes</a></li>
+                   
+                      </ul>
+                     
+
+                     </div>
+                    </div>
+                    </div>
+<!--Section 3-->
+                    <div class="col-md-3">
+                        <div class="panel panel-primary">
+                         <div class="panel-heading">
+                         <h3 class="panel-title">RECIPE COLLECTIONS</h3>
+                         
+                         </div>
+                         <div class="panel-body">
+                            
+                            <ul class="navba" id="myNavbar1">
+                                <li><a href="#" class="active">African</a></li>
+                                <li><a href="#">Intercontinental</a></li>
+                                <li><a href="#">Bakery</a></li>
+                                <li><a href="#">Quick smoothie Recipes</a></li>
+                                <li><a href="#"> jellof Rice</a></li>
+                                <li><a href="#">baked patato</a></li>
+                                
+                              </ul>
+                         
+                         
+                           
+                         </div>
+                        </div>
+                        </div>
+  <!--Section 4-->              
+                    <div class="col-md-3">
+                        <div class="panel panel-primary">
+                         <div class="panel-heading">
+                         <h3 class="panel-title">Sweet Pies</h3>
+                         <img src="admin_panel\uploads\pie_image.jpeg" alt="Placeholder Image" id="experimentImage" width="100" height="100">
+                         </div>
+                         <div class="panel-body">
+                         <p>Is there anything more comforting than a proper pie? Whether it is encased in flaky pastry, or topped with a creamy mash lid, there are few dishes that bring as much satisfaction as a pie. We got endless ideas to inspire you, so come on in and let us tempt you</p>
+                         
+                            <div class="panel panel-primary">
+                             <div class="panel-heading">
+                             <h3 class="panel-title">Bakery Special</h3>
+                             <img src="admin_panel\uploads\bakery.jpeg" alt="Placeholder Image" id="experimentImage">
+                             </div>
+                             <div class="panel-body">
+                             <p>Sometimes you are excited about a big baking project, but other times you are looking for easy baking recipes only. You need emergency dessert options that are better than a handful of chocolate chips and bake sale delights that do not require you to learn a new skill. Perhaps you are in charge of dessert at a potluck during a busy week, or maybe you require a crowd-pleasing brunch option for those whose preference is for sweets at breakfast.</p>
+                             </div>
+                            </div>
+                            
+                         </div>
+                        </div>
+                        </div>
+                        
+         </div><!--End of Experiment Container-->
+        </main>
+
+        <footer class="col-md-12">
+         <section class="col-md-4">
+         <h3>SignUp for Email Updates</h3>
+         <form action="connection.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="name"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@rgu.ac.uk" required><br>
+            <br>
+            <label for="">Submit:</label><br>
+            <input id="button" type="submit" value="Login" style="justify-content: center"; ><br><br>
+              
+        
+        
+        </form>
+         </section>
+
+         <section class="col-md-4">
+         <h3>Connect with Us</h3>
+        <br>
+         <ul>
+         <li><a href="http://www.facebook.com"><img src="admin_panel\uploads\facebook.jpeg" alt="Facebook" height="70"width="150"></a></li><br>
+         <li><a href="http://www.twitter.com"><img src="admin_panel\uploads\twitter.jpeg" alt="Twitter" height="50" width="150"></a></li><br>
+         <li><a href="http://www.youtube.com"><img src="admin_panel\uploads\youtube.jpeg" alt="Youtube" height="50" width="150"></a></li><br>
+         <li><a href="http://www.instagram.com"><img src="admin_panel\uploads\instagram.jpeg" alt="instagram" height="50" width="150"></a></li><br>
+         </ul>
+        </section>
+
+         <section class="col-md-4">
+         <h3>Privacy</h3>
+         <a href="#">Privacy Terms and Conditions</a>
+         </section>
+        </footer>
+      
+        <!--End of Container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.Bootstrapcdn.com/Bootstrap/4.0.0/js/Bootstrap.min.js"></script>
+</body>
+</html>
